@@ -18,6 +18,8 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 1.8;
     color: #4a4a4a;
 }
 
@@ -30,6 +32,28 @@ body {
     margin: 0 auto;
 }
 
+button {
+    background-color: #4a4a4a;
+    width: 170px;
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+}
+
+
+/* UNIVERSAL FONT STYLES */
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 500;
+}
 
 /* HEADER AND MAIN NAVAGATION */
 
@@ -74,8 +98,23 @@ nav#main-nav {
 /* HERO */
 
 #hero {
-    background-color: grey;
+    background-color: #c1c1c1;
+    align-items: center;
 }
+
+#hero img {
+    margin: 32px 24px;
+    width: 60%; 
+}
+
+#hero-content {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 220px;
+    width: 280px;
+}
+
+
 
 
 /* ARTICLES */

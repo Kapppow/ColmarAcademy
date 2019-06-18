@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -46,14 +46,6 @@ button {
 
 /* UNIVERSAL FONT STYLES */
 
-h1 {
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-p {
-    font-weight: 500;
-}
 
 /* HEADER AND MAIN NAVAGATION */
 
@@ -114,6 +106,14 @@ nav#main-nav {
     width: 280px;
 }
 
+#hero-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#hero-content p {
+    font-weight: 500;
+}
 
 
 

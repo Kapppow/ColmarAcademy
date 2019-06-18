@@ -18,7 +18,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #121212;
+    color: #4a4a4a;
 }
 
 .flex {
@@ -52,13 +52,13 @@ header {
 }
 
 .logo-dark {
-    
+    color: #4a4a4a;
     font-weight: 700;
 }
 
 .logo-light {
     font-weight: 300;
-    color: #474747;
+    color: #c1c1c1;
 }
 
 nav#main-nav {

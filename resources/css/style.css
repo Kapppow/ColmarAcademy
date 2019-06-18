@@ -4,12 +4,6 @@
 */
 
 
-
-/* Roboto 300, 400, 500, 700 */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-
-
-
 /* UNIVERSAL STYLES */
 
 * {
@@ -19,6 +13,7 @@
 
 html {
     font-size: 16px;
+
 }
 
 body {
@@ -26,11 +21,64 @@ body {
     color: #121212;
 }
 
+.flex {
+    display: flex;
+}
 
-/* HEADER */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
 
 
-/* MAIN AND SMALL NAVAGATION */
+/* HEADER AND MAIN NAVAGATION */
+
+header {
+    width: 100vw;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 32px;
+    align-items: center;
+    padding-left: 24px;
+    font-size: 1.9em;
+}
+
+#logo img {
+    height: 50px;
+}
+
+.logo-dark {
+    
+    font-weight: 700;
+}
+
+.logo-light {
+    font-weight: 300;
+    color: #474747;
+}
+
+nav#main-nav {
+    padding-right: 24px;
+}
+
+#main-nav ul li {
+    padding: 0 8px;
+}
+
+
+
+/* HERO */
+
+#hero {
+    background-color: grey;
+}
+
+
+/* ARTICLES */
 
 
 /* START LEARNING */

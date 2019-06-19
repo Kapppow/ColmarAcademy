@@ -24,13 +24,14 @@ body {
     /* background-color: rgb(218, 255, 221); */
 }
 
-.flex {
-    display: flex;
-}
-
 .container {
     max-width: 960px;
     margin: 0 auto;
+    display: flex;
+}
+
+.flex {
+    display: flex;
 }
 
 a {
@@ -212,17 +213,48 @@ nav#main-nav {
 
 
 
-
-
-
-
-
-
-
 /* START LEARNING */
 #start-learning {
-    
+    background-color: #eaebec;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 72px;
 }
+
+#start-learning h2{
+
+}
+
+#card-container {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 240px;
+    flex-direction: column;
+    margin: 16px;
+    height: 300px;
+}
+
+.card img {
+    height: 140px;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    padding: 16px 0 8px 16px;
+}
+.card h4 {
+    font-size: .95rem;
+    padding: 8px 0 0px 16px;
+}
+.card p {
+    font-size: .9rem;
+    padding: 16px 0 16px 16px;
+}
+
 
 /* THESIS EXHIBIT */
 

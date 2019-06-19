@@ -1,204 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-<!-- COLMAR ACADEMY
-A Codecademy.com Capstone Project
-By Kevin Andrews, June 2019 -->
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Colmar Academy</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Style Sheets -->
-    <link rel="stylesheet" href="resources/css/reset.css">
-    <link rel="stylesheet" href="resources/css/style.css">
-
-    <!-- Fonts -->
-    <!-- Roboto 300, 400, 500, 700, 900 -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/style-bootsrap.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700,900' rel='stylesheet' type='text/css'>
+    <title>Colmar Academy - Bootstrap</title>
 </head>
 
 <body>
 
-    <!-- HEADER AND MAIN NAVAGATION -->
+    <!-- NAVBAR -->
+    <div class='container-fluid'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="capstone_colmar_assets/images/ic-logo.svg" width="32" height="32"
+                    class="d-inline-block align-top" alt="Welcome to Colmar Academy">
+                <span class="font-weight-bold">COLMAR</span>
+                <span class="font-weight-lighter">ACADEMY</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <header class="container">
-        <div id="logo">
-            <img src="capstone_colmar_assets/images/ic-logo.svg" alt="Colmar Academy Logo">
-            <h1 class="logo-dark-text">COLMAR</h1>
-            <h1 class="logo-light-text">ACADEMY</h1>
-        </div>
-        <nav id="main-nav">
-            <ul>
-                <li><a href="#">On campus</a></li>
-                <li><a href="#">Online</a></li>
-                <li><a href="#">For companies</a></li>
-                <li><button>Sign In</button></li>
-            </ul>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">On Campus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-dark" href="#">Sign In</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </header>
+    </div>
 
 
 
 
-    <!-- HERO   -->
-
-    <section id="hero" class="container">
-        <img src="capstone_colmar_assets/images/banner.jpg" alt="Learn something new everyday.">
-        <div id="hero-content">
-            <h1>Learn something new everyday</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>Start here</button>
-        </div>
-    </section>
 
 
-    <!-- ARTICLES -->
-    <section id="articles" class="container">
-        <article id="main-article">
-            <img src="capstone_colmar_assets/images/information-main.jpg" alt="">
-            <h2>It doesn't hurt to keep practicing</h2>
-            <p class="main-article-text">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
-                lectus, nec consequat neque. Sed
-                non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-                trstique ligula."</p>
-            <p class="main-article-author">Emanuel, Sr Strategist at Hiring.com</p>
-        </article>
-        <nav id="other-articles">
-            <article class="other-article">
-                <img src="capstone_colmar_assets/images/information-orientation.jpg" alt="Orientation date">
-                <div class="other-article-content">
-                    <h3>Orientation date</h3>
-                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                    <a href="#">Read More</a>
-                </div>
-            </article>
-            <article class="other-article">
-                <img src="capstone_colmar_assets/images/information-campus.jpg" alt="Our Campus">
-                <div class="other-article-content">
-                    <h3>Our Campus</h3>
-                    <p>Find which campus is close by you</p>
-                    <a href="#">Read More</a>
-                </div>
-            </article>
-            <article class="other-article featured">
-                <img src="capstone_colmar_assets/images/information-guest-lecture.jpg" alt="Our guest lecture">
-                <div class="other-article-content">
-                    <h3>Our guest lecture</h3>
-                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                    <a href="#">Read More</a>
-                </div>
-            </article>
-        </nav>
-    </section>
+    <!-- JUMBOTRON -->
 
 
 
-
-    <!-- START LEARNING -->
-
-    <section id="start-learning" class="container">
-        <h2>Start learning</h2>
-        <div id="card-container">
-            <div class="card">
-                <img src="capstone_colmar_assets/images/course-software.jpg" alt="Software Engineering">
-                <h3>Software Engineering</h3>
-                <h4>COURSES</h4>
-                <p>Web development, Mobile Development, iOT, APIs</p>
+    <div class="container-fluid">
+        <div class="row mt-4 ml-4">
+            <div class="col d-flex justify-content-center align-items-center">
+                <img src="capstone_colmar_assets/images/banner.jpg" alt="Welcome to Colmar Academy" width='100%'
+                    class='align-center'>
             </div>
-            <div class="card">
-                <img src="capstone_colmar_assets/images/course-computer-art.jpg" alt="Computer Art">
-                <h3>Computer Art</h3>
-                <h4>COURSES</h4>
-                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-            </div>
-            <div class="card">
-                <img src="capstone_colmar_assets/images/course-design.jpg" alt="Design">
-                <h3>Design</h3>
-                <h4>COURSES</h4>
-                <p>User Experience Design, User Research, Visual Design</p>
-            </div>
-            <div class="card">
-                <img src="capstone_colmar_assets/images/course-data.jpg" alt="Data">
-                <h3>Data</h3>
-                <h4>COURSES</h4>
-                <p>Data Science, Big Data, SQL, Data Visualization</p>
-            </div>
-            <div class="card">
-                <img src="capstone_colmar_assets/images/course-business.jpg" alt="Business">
-                <h3>Business</h3>
-                <h4>COURSES</h4>
-                <p>Product Deveopment, Business Development, Startup</p>
-            </div>
-            <div class="card">
-                <img src="capstone_colmar_assets/images/course-marketing.jpg" alt="Marketing">
-                <h3>Marketing</h3>
-                <h4>COURSES</h4>
-                <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <div class="col">
+                <h1 class="display-5 text-wrap" style="width: 20rem;">Learn something new everyday</h1>
+                <p class="lead text-wrap" style="width: 20rem;">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Soluta esse
+                    tempora aspernatur
+                    praesentium doloribus vel, assumenda minima delectus ducimus ipsa maxime sunt nemo quis
+                    veritatis
+                    fugit
+                    perferendis quaerat in quae?</p>
+                <a class="btn btn-primary" href="#" role="button">Learn more</a>
             </div>
         </div>
-    </section>
+    </div>
 
 
 
 
-    <!-- THESIS EXHIBIT -->
-
-    <section id="thesis-exhibit" class="container">
-
-        <h2>Thesis exhibit</h2>
-
-        <div id="thesis-content">
-
-            <div id="thesis-content-video">
-                <video src="capstone_colmar_assets/videos/thesis.mp4"></video>
-                <h3>Reimagine urban</h3>
-                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi esse commodi officia, autem
-                    fugitvoluptates? Ducimus necessitatibus obcaecati ab enim, harum non mollitia dolor vitae, sit alias
-                    dicta in. Fugit."</p>
-            </div>
-
-            <div id="video-nav" class="flex">
-                <div class="video-nav-element flex featured ">
-                    <div class="video-image">
-                        <img src="capstone_colmar_assets/images/thesis-fisma.jpg" alt="Fisma: Design and Prototype">
-                    </div>
-                    <div class="video-nav-element-content flex">
-                        <h3>Fisma: Design and Prototype</h3>
-                        <p>Designer showcase of new prototype product</p>
-                    </div>
-                </div>
-                <div class="video-nav-element flex">
-                    <div class="video-image">
-                        <img src="capstone_colmar_assets/images/thesis-now-and-then.jpg" alt="Now and Then">
-                    </div>
-                    <div class="video-nav-element-content flex">
-                        <h3>Now and Then</h3>
-                        <p>Reasearch study about New York</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
 
-    <footer class="container">
-        <p>&copy 2019 Colmar Academy. All rights reserved.</p>
-        <nav id="terms-privacy">
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-        </nav>
-    </footer>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
-
-<!--
-Thanks for reading my code!
--Kevin
--->
-
 
 </html>

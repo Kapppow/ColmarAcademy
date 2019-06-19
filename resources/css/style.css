@@ -58,6 +58,7 @@ button {
 
 
 /* UNIVERSAL FONT STYLES */
+
 h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -258,11 +259,79 @@ nav#main-nav {
 
 /* THESIS EXHIBIT */
 
+#thesis-exhibit {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0 32px 24px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+#thesis-content-video {
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#thesis-content-video video {
+    width: 100%;
+    margin-right: 24px;
+}
+
+#video-nav {
+    flex-direction: column;
+}
+
+.featured {
+    background-color: #c1c1c1;
+}
+
+.video-nav-element {
+    justify-content: space-between;
+    margin-left: 24px;
+}
+
+.video-nav-element-content {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-image img {
+    padding: 16px;
+    width: 100%;
+}
+
+#thesis-exhibit h2 {
+    padding-bottom: 32px;
+}
+
+#thesis-exhibit h3 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+#thesis-exhibit p {
+    padding-bottom: 32px;
+}
+
 
 /* FOOTER */
 
+footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+}
 
-/* 
+#terms-privacy {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/*
 Thanks for reading my code :)
 -Kevin 
 */

@@ -21,6 +21,7 @@ body {
     line-height: 1.2;
     letter-spacing: 1.8;
     color: #4a4a4a;
+    /* background-color: rgb(218, 255, 221); */
 }
 
 .flex {
@@ -30,6 +31,17 @@ body {
 .container {
     max-width: 960px;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #3396cf;
 }
 
 button {
@@ -45,6 +57,20 @@ button {
 
 
 /* UNIVERSAL FONT STYLES */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
 
 
 /* HEADER AND MAIN NAVAGATION */
@@ -106,22 +132,97 @@ nav#main-nav {
     width: 280px;
 }
 
-#hero-content h1 {
-    font-size: 2rem;
-    font-weight: 700;
-}
 
 #hero-content p {
     font-weight: 500;
 }
 
 
-
 /* ARTICLES */
+#articles {
+    background-color: white;
+}
+
+#main-article {
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #c1c1c1;
+    width: 60%;
+}
+
+#main-article img {
+    padding: 32px 24px;
+    height: 300px;
+}
+
+#main-article h2 {
+    padding-bottom:24px;
+    padding-left: 24px;
+}
+
+#main-article p {
+    padding-bottom:24px;
+    padding-left: 24px;
+    font-weight: 300; 
+}
+
+#main-article .author {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+
+
+#other-articles {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.other-article {
+    padding: 16px;
+}
+
+.other-article:first-child {
+    border-bottom: 3px solid #c1c1c1;
+}
+
+.other-article:last-child {
+    background-color: #c1c1c1;
+}
+
+.other-article img {
+    width: 35%;
+    padding-right: 16px;
+}
+
+.other-article-content {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.other-article-content p {
+    font-size: .9rem;
+}
+
+.other-article-content a {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
 
 
 /* START LEARNING */
-
+#start-learning {
+    
+}
 
 /* THESIS EXHIBIT */
 

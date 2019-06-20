@@ -1,0 +1,65 @@
+/* COLOR PALETTE  */
+:root {
+    --light-shades: #FBFAFA;
+    --light-accent: rgb(228, 233, 236);
+    --main-brand-color: rgb(121, 193, 226);
+    --main-brand-accent: rgb(228, 154, 70);
+    --dark-accent: rgb(182, 175, 159);
+    --dark-shades: rgb(5, 27, 47);
+
+    --dark-grey: rgb(24, 24, 24);
+    --light-grey: rgb(218, 218, 218);
+}
+
+body {
+    color: var(--dark-grey);
+}
+
+
+.bg-light-shades {
+    background: var(--light-accent);
+}
+
+
+.bg-light-grey {
+    background: var(--light-grey);
+}
+
+.featured {
+    background: var(--dark-accent);
+}
+
+.featured:hover {
+    background-color: var(--main-brand-accent);
+}
+
+.bg-logo {
+    background: var(--main-brand-color);
+}
+
+
+
+
+/* CUSTOM CLASSES */
+
+.border-3 {
+    border-width: 3px !important;
+}
+
+
+
+
+/* btn OVERRIDES */
+
+.btn:hover {
+    background: var(--main-brand-accent);
+    color: var(--dark-grey);
+}
+
+.btn {
+    background: var(--main-brand-color);
+    color: var(--dark-grey);
+    font-weight: bold;
+    border: 1px solid var(--dark-grey);
+    box-shadow: 2px 2px 2px rgb(19, 19, 19, .2)
+}

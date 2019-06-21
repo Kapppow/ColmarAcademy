@@ -1,3 +1,16 @@
+/* 
+  COLMAR ACADEMY a Codecademy.com Capstone Project
+  by Kevin Andrews, June 2019
+  kevinrobertandrews@gmail.com
+
+
+  Hey there! This is my first time building a website with Bootstrap. I would
+  appreciate any feedback you might have. Thanks!
+
+  -Kevin
+*/
+
+
 /* COLOR PALETTE  */
 :root {
   --light-shades: #fbfafa;
@@ -23,23 +36,23 @@ body {
   background: var(--light-grey);
 }
 
-.featured {
-  background: var(--dark-accent);
-}
-
-.featured:hover {
-  background-color: var(--main-brand-accent);
-}
-
 .bg-logo {
   background: var(--main-brand-color);
 }
 
-/* CUSTOM CLASSES */
-
-.border-3 {
-  border-width: 3px !important;
+.featured {
+  background: var(--dark-accent);
 }
+
+
+/* Hover Effects */
+
+.featured:hover,
+.other-article:hover {
+  background-color: var(--main-brand-accent);
+}
+
+
 
 /* btn OVERRIDES */
 

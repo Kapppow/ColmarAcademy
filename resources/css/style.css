@@ -17,7 +17,7 @@
   --light-accent: rgb(228, 233, 236);
   --main-brand-color: rgb(121, 193, 226);
   --main-brand-accent: rgb(228, 154, 70);
-  --dark-accent: rgb(182, 175, 159);
+  --dark-accent: rgb(218, 212, 203);
   --dark-shades: rgb(5, 27, 47);
 
   --dark-grey: rgb(24, 24, 24);
@@ -68,6 +68,8 @@ body {
   border: 1px solid var(--dark-grey);
   box-shadow: 2px 2px 2px rgb(19, 19, 19, 0.2);
 }
+
+
 
 .custom-mobile-nav {
   list-style-type: none;
